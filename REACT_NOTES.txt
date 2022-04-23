@@ -35,4 +35,34 @@ MEDIA QUERY
     360×640 (7.28%)
 
 ADD TO GITHUB
+    $ git init
+    $ git add .
+    $ git commit -m "first commit"
+
+    REMOVE TESTING DEPENDENCIES AND WEB VITALS
+        $ npm uninstall @testing-library/jest-dom @testing-library/react @testing-library/user-event web-vitals
+
+    create a new repository on the command line
+        echo "# react-porfolio-tuts-deploy-netlify" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/JhondelCaranay/react-porfolio-tuts-deploy-netlify.git
+        git push -u origin main
+
+    push an existing repository from the command line
+        git remote add origin https://github.com/JhondelCaranay/react-porfolio-tuts-deploy-netlify.git
+        git branch -M main
+        git push -u origin main 
+
+DEPLOY REACT TO GITHUB TO NETLIFY AND HEROKU TUTORIAL
+    https://www.youtube.com/watch?v=AOqY6disSVI&t=163s
+
+UPDATE ON PRODUCTION
+    git add .
+    git commit -m "Updated"
+    git push -u origin main 
+
+
     
