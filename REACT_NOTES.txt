@@ -1,0 +1,38 @@
+installation
+    npm install react@17.0.0 react-dom@17.0.0
+    $ npx create-react-app <project name>
+
+NOTES:
+    clear all unnecessary files in public and src folder, only leaft index.html, app.js, index.js
+
+START APP
+    cd portfolio 
+    npm start
+
+GOOGLE FONTS
+    paste link into public/index.html
+
+
+INSTALL SCSS FOR CSS
+    $ npm install node-sass
+
+
+MATERIAL Ui ICONS
+    $ npm install @mui/material @emotion/react @emotion/styled
+    $ npm install @mui/icons-material
+
+ITYPE 
+    // text effect library
+    https://www.npmjs.com/package/ityped
+    $ npm install ityped
+
+MEDIA QUERY
+    According to the Worldwide Screen Resolution Stats (Jan 2020 – Jan 2021),
+    the most commonly used resolutions across mobile, desktop, and tablet are:
+
+    1920×1080 (8.89%)
+    1366×768 (8.44%)
+    360×640 (7.28%)
+
+ADD TO GITHUB
+    
